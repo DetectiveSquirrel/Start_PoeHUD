@@ -5,7 +5,7 @@ using System.IO;
 using System.Reflection;
 using System.Windows.Forms;
 
-namespace Start_PoeHUD
+namespace Starter
 {
     class Program
     {
@@ -34,7 +34,7 @@ namespace Start_PoeHUD
             if (OtherEXEs.Count > 1)
             {
                 DialogResult Clickhandle = MessageBox.Show(
-                    string.Format("We have found {0} EXE's within this folder\nThis might result is multiple PoEHUDs opening\nWould you like to continue?", OtherEXEs.Count),
+                    string.Format("We have found {0} EXE's within this folder\nThis might result is multiple HUDS opening\nWould you like to continue?", OtherEXEs.Count),
                     "Warning", MessageBoxButtons.YesNo);
 
                 if (Clickhandle == DialogResult.No)

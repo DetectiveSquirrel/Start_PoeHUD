@@ -242,3 +242,4 @@ ModelManifest.xml
 .fake/
 Start PoeHUD.vshost.exe
 *.config
+Starter.vshost.exe
